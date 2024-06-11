@@ -1,0 +1,24 @@
+---
+layout: post
+title: Day 2
+---
+
+**Linux Networking Command:-**
+
+=> ifconfig, ip a [ check ip address ]
+
+=> nmcli connection show --active [ show active ethernet connection ]
+
+=> nmcli dev status [ show all interface ]
+
+=> nmcli connection up ethernet-name [ use for connection up ]
+
+=> nmcli connection down ethernet-name [ use for connection down ]
+
+=> nmtui [ give static ip ]
+
+=> nmcli con mod enps03 ipv4.addresses 192.168.1.10/24 ipv4.gateway 192.168.1.1 ipv4.dns “8.8.8.8” [ give static ip with command ]
+
+=> route -n [ check network route & gateway ]
+
+
